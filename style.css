@@ -19,6 +19,7 @@ nav {
     height: 50px;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -71,6 +72,7 @@ nav li:nth-child(2) {
 
 #sec1 {
     background-color: black;
+    text-align: center;
 }
 
 #sec2 {
@@ -85,7 +87,6 @@ nav li:nth-child(2) {
 
 #sec4 {
     background-color: black;
-    text-align: center;
 }
 
 section {
