@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background: linear-gradient(to right, rgb(146, 146, 146),black, black);
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    height: 100%;
+    margin: 0 20px 0 20px;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+nav li:nth-child(2) {
+    margin-right: auto;
+}
+
+@media screen and (max-width:750px) {
+    .hideOM {
+        display: none;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .hideOL {
+        display: none;
+    }
+}
+
+#sidemenu {
+    background-color: gray;
+    height: 100%;
+    width: 180px;
+    padding: 10px;
+    display: none;
+    position: absolute;
+}
+
+#sidemenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+}
+
+#sec1 {
+    background-color: black;
+}
+
+#sec2 {
+    background-color: black;
+    
+}
+
+#sec3 {
+    background-color: black;
+    
+}
+
+#sec4 {
+    background-color: black;
+    text-align: center;
+}
+
+section {
+    border-bottom: 1px solid rgb(88, 88, 88);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img{
+    height: 40px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
